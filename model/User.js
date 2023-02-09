@@ -8,11 +8,11 @@ const userSchema = new Schema({
     },
     roles: {
         User: {
-            type: Number,
-            default: 2001
+            type: String,
+            default: 'user'
         },
-        SuperAdmin: Number,
-        Admin: Number
+        SuperAdmin: String,
+        Admin: String
     },
     password: {
         type: String,
