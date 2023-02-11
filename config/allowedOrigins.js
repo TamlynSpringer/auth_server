@@ -4,6 +4,7 @@ const allowedOrigins = [
     'http://localhost:3500',
     'http://localhost:5173',
     'http://localhost:5173/register',
+    'http://localhost:5173/auth',
 ];
 
 module.exports = allowedOrigins;
